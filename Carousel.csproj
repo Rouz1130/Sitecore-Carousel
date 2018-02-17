@@ -339,6 +339,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Views\main.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
