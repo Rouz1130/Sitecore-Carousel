@@ -1,0 +1,16 @@
+﻿@model Carousel.Models.BreadcrumbItemList
+<ol>
+    @foreach(var item in Model.Breadcrumbs)
+    {
+        <li>
+            @if(item.IsActive)
+            { @item.Title}
+            else
+            {
+                <a href="@item.Url">
+                    @item.Title
+                </a>
+            }
+        </li>
+    }
+</ol>
