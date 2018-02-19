@@ -10,10 +10,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Carousel.dll">
-      <publishTime>02/18/2018 13:40:51</publishTime>
+      <publishTime>02/18/2018 17:34:09</publishTime>
     </File>
     <File Include="bin/Carousel.pdb">
-      <publishTime>02/18/2018 13:40:51</publishTime>
+      <publishTime>02/18/2018 17:34:09</publishTime>
     </File>
     <File Include="bin/HtmlAgilityPack.dll">
       <publishTime>07/14/2016 08:01:16</publishTime>
@@ -583,7 +583,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/17/2018 16:40:37</publishTime>
     </File>
     <File Include="Views/main.cshtml">
-      <publishTime>02/18/2018 16:32:44</publishTime>
+      <publishTime>02/18/2018 17:33:49</publishTime>
+    </File>
+    <File Include="Views/Navigation/Breadcrumb.cshtml">
+      <publishTime>02/18/2018 17:27:21</publishTime>
     </File>
     <File Include="Views/Navigation/SideMenu.cshtml">
       <publishTime>02/18/2018 14:39:13</publishTime>
