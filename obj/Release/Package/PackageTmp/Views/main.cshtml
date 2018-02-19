@@ -55,7 +55,7 @@
         </div>
 
         <div id="sidemenu">
-            @Html.Sitecore().Rendering("{5BAB1AF4-51A9-465B-8F43-CDC6079DE2B1}")
+           @Html.Partial("~/Views/Navigation/SideMenu.cshtml")
 
             @* Alternatives *@
             @*@Html.Sitecore().ViewRendering("/Views/Navigation/SideMenu.cshtml")*@
@@ -64,7 +64,7 @@
 
         <div id="contentarea">
             <h1>@Html.Sitecore().Field("Title")</h1>
-            @Html.Sitecore().Field("Body")<br /><br />
+            @Html.Sitecore().Field("Body")<br />
             @Html.Sitecore().Field("Image")
         </div>
   
